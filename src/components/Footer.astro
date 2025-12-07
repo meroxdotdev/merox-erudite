@@ -12,10 +12,10 @@ const isExternalLink = (href: string) => {
 ---
 
 <footer class="bg-background/80 border-t border-border/50 backdrop-blur-md">
-  <div class="mx-auto max-w-3xl px-4 py-8 sm:py-10">
-    <div class="flex flex-col gap-8">
+  <div class="w-full px-4 py-8 sm:py-10">
+    <div class="flex flex-col gap-8 max-w-3xl mx-auto">
       <!-- Newsletter Section -->
-      <div class="grid md:grid-cols-[1fr_auto] gap-6 px-6 md:px-8 py-6 md:py-8 items-center">
+      <div class="grid md:grid-cols-[1fr_auto] gap-6 py-6 md:py-8 items-center">
         <div class="text-left">
           <div class="flex items-center gap-2 mb-3">
             <Icon name="lucide:mail" class="size-5 text-primary shrink-0" />
@@ -33,10 +33,10 @@ const isExternalLink = (href: string) => {
       </div>
 
       <!-- Subtle Separator -->
-      <div class="h-px bg-border/30 mx-6 md:mx-8" aria-hidden="true"></div>
+      <div class="h-px bg-border/30" aria-hidden="true"></div>
 
       <!-- Main Footer Content -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 px-6 md:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         <!-- Navigation -->
         <div>
           <h4 class="text-sm font-semibold mb-3 text-foreground">Navigation</h4>
@@ -88,10 +88,10 @@ const isExternalLink = (href: string) => {
       </div>
 
       <!-- Separator -->
-      <div class="h-px bg-border/60 mx-6 md:mx-8" aria-hidden="true"></div>
+      <div class="h-px bg-border/60" aria-hidden="true"></div>
 
       <!-- Bottom Section -->
-      <div class="flex flex-col items-center gap-2 sm:flex-row sm:justify-between text-sm text-muted-foreground px-6 md:px-8">
+      <div class="flex flex-col items-center gap-2 sm:flex-row sm:justify-between text-sm text-muted-foreground">
         <div class="text-center sm:text-left">
           &copy; {new Date().getFullYear()} {SITE.title}. All rights reserved.
         </div>
